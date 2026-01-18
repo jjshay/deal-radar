@@ -1,0 +1,22 @@
+[
+  {
+    "id": "example-1",
+    "title": "Mr Brainwash Signed Print",
+    "price": 200,
+    "url": "",
+    "image": "",
+    "notes": "Looking for Life is Beautiful - $200+",
+    "added": "2026-01-17T00:00:00",
+    "status": "watching"
+  },
+  {
+    "id": "example-2",
+    "title": "Neil Armstrong Signed Photo COA",
+    "price": 500,
+    "url": "",
+    "image": "",
+    "notes": "Apollo 11 - must have COA",
+    "added": "2026-01-17T00:00:00",
+    "status": "watching"
+  }
+]
