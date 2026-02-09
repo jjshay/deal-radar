@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-DATARADAR Deals - eBay Deal Finder for Flipping Authenticated Collectibles
+DEAL Radar - eBay Deal Finder for Flipping Authenticated Collectibles
 
 A Flask application that searches eBay in real-time to find underpriced
 authenticated items (signed memorabilia, vintage vinyl, space collectibles).
@@ -374,7 +374,7 @@ def remove_from_watchlist():
 @app.route('/health')
 def health():
     """Health check endpoint"""
-    return jsonify({'status': 'ok', 'app': 'dataradar-deals'})
+    return jsonify({'status': 'ok', 'app': 'deal-radar'})
 
 # =============================================================================
 # Main
