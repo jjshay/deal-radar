@@ -50,81 +50,63 @@ DEFAULT_MAX_PRICE = 700
 # =============================================================================
 
 DEAL_TARGETS = [
-    # Art Prints - Mr. Brainwash
-    {
-        'query': 'Mr Brainwash signed print',
-        'min_price': 100,
-        'max_price': 500,
-        'category': 'Mr. Brainwash'
-    },
-    {
-        'query': 'MBW signed print',
-        'min_price': 75,
-        'max_price': 400,
-        'category': 'Mr. Brainwash'
-    },
+    # ===================
+    # ART - Street Art
+    # ===================
+    {'query': 'Mr Brainwash signed print', 'min_price': 100, 'max_price': 500, 'category': 'Mr. Brainwash'},
+    {'query': 'MBW signed print', 'min_price': 75, 'max_price': 400, 'category': 'Mr. Brainwash'},
+    {'query': 'Shepard Fairey signed print', 'min_price': 75, 'max_price': 400, 'category': 'Shepard Fairey'},
+    {'query': 'Obey Giant signed', 'min_price': 50, 'max_price': 300, 'category': 'Shepard Fairey'},
+    {'query': 'Death NYC signed', 'min_price': 30, 'max_price': 80, 'category': 'Death NYC'},
+    {'query': 'Death NYC framed', 'min_price': 40, 'max_price': 100, 'category': 'Death NYC'},
+    {'query': 'Banksy signed print', 'min_price': 200, 'max_price': 1000, 'category': 'Banksy'},
 
-    # Art Prints - Shepard Fairey
-    {
-        'query': 'Shepard Fairey signed print',
-        'min_price': 75,
-        'max_price': 400,
-        'category': 'Shepard Fairey'
-    },
-    {
-        'query': 'Obey Giant signed',
-        'min_price': 50,
-        'max_price': 300,
-        'category': 'Shepard Fairey'
-    },
+    # ===================
+    # ART - KAWS
+    # ===================
+    {'query': 'KAWS signed print', 'min_price': 200, 'max_price': 600, 'category': 'KAWS'},
+    {'query': 'KAWS companion figure', 'min_price': 150, 'max_price': 400, 'category': 'KAWS'},
+    {'query': 'KAWS limited edition', 'min_price': 200, 'max_price': 500, 'category': 'KAWS'},
+    {'query': 'KAWS original fake', 'min_price': 150, 'max_price': 400, 'category': 'KAWS'},
 
-    # Space Memorabilia - with COA
-    {
-        'query': 'Neil Armstrong signed photo COA',
-        'min_price': 500,
-        'max_price': 5000,
-        'category': 'Space'
-    },
-    {
-        'query': 'Buzz Aldrin signed photo COA',
-        'min_price': 100,
-        'max_price': 800,
-        'category': 'Space'
-    },
-    {
-        'query': 'astronaut signed COA authenticated',
-        'min_price': 100,
-        'max_price': 1000,
-        'category': 'Space'
-    },
+    # ===================
+    # BEARBRICK
+    # ===================
+    {'query': 'Bearbrick 1000%', 'min_price': 300, 'max_price': 700, 'category': 'Bearbrick'},
+    {'query': 'Bearbrick 1000 KAWS', 'min_price': 400, 'max_price': 800, 'category': 'Bearbrick'},
+    {'query': 'Medicom Bearbrick 1000', 'min_price': 300, 'max_price': 600, 'category': 'Bearbrick'},
 
-    # Signed Pickguards - with COA
-    {
-        'query': 'signed pickguard COA',
-        'min_price': 75,
-        'max_price': 500,
-        'category': 'Pickguard'
-    },
-    {
-        'query': 'autographed pickguard COA',
-        'min_price': 75,
-        'max_price': 500,
-        'category': 'Pickguard'
-    },
+    # ===================
+    # NASA / SPACE
+    # ===================
+    {'query': 'Neil Armstrong signed', 'min_price': 500, 'max_price': 5000, 'category': 'NASA'},
+    {'query': 'Buzz Aldrin signed photo', 'min_price': 100, 'max_price': 500, 'category': 'NASA'},
+    {'query': 'Buzz Aldrin autograph COA', 'min_price': 150, 'max_price': 600, 'category': 'NASA'},
+    {'query': 'Michael Collins signed', 'min_price': 200, 'max_price': 800, 'category': 'NASA'},
+    {'query': 'Apollo 11 signed', 'min_price': 300, 'max_price': 2000, 'category': 'NASA'},
+    {'query': 'Apollo astronaut signed', 'min_price': 100, 'max_price': 500, 'category': 'NASA'},
+    {'query': 'NASA astronaut autograph COA', 'min_price': 75, 'max_price': 400, 'category': 'NASA'},
+    {'query': 'Space Shuttle signed', 'min_price': 100, 'max_price': 500, 'category': 'NASA'},
+    {'query': 'John Glenn signed', 'min_price': 150, 'max_price': 600, 'category': 'NASA'},
+    {'query': 'astronaut signed photo JSA', 'min_price': 100, 'max_price': 400, 'category': 'NASA'},
+    {'query': 'astronaut signed photo PSA', 'min_price': 100, 'max_price': 400, 'category': 'NASA'},
 
-    # Signed Vinyl - with COA
-    {
-        'query': 'signed vinyl COA authenticated',
-        'min_price': 75,
-        'max_price': 500,
-        'category': 'Vinyl'
-    },
-    {
-        'query': 'Taylor Swift signed vinyl COA',
-        'min_price': 100,
-        'max_price': 600,
-        'category': 'Vinyl'
-    },
+    # ===================
+    # MUSIC - Signed Vinyl
+    # ===================
+    {'query': 'signed vinyl COA', 'min_price': 75, 'max_price': 300, 'category': 'Vinyl'},
+    {'query': 'signed vinyl JSA', 'min_price': 100, 'max_price': 400, 'category': 'Vinyl'},
+    {'query': 'signed vinyl BAS', 'min_price': 100, 'max_price': 400, 'category': 'Vinyl'},
+    {'query': 'Taylor Swift signed vinyl', 'min_price': 100, 'max_price': 400, 'category': 'Vinyl'},
+    {'query': 'Blink 182 signed', 'min_price': 150, 'max_price': 400, 'category': 'Vinyl'},
+    {'query': 'Green Day signed', 'min_price': 150, 'max_price': 400, 'category': 'Vinyl'},
+
+    # ===================
+    # MUSIC - Pickguards
+    # ===================
+    {'query': 'signed pickguard COA', 'min_price': 75, 'max_price': 300, 'category': 'Pickguard'},
+    {'query': 'autographed pickguard JSA', 'min_price': 100, 'max_price': 400, 'category': 'Pickguard'},
+    {'query': 'signed guitar pickguard', 'min_price': 75, 'max_price': 350, 'category': 'Pickguard'},
 ]
 
 # =============================================================================
